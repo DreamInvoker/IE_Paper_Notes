@@ -49,13 +49,30 @@ This is a relation extraction reading notes contributed by the [Shuang Zeng](htt
   _Daojian Zeng, Haoran Zhang, Qianying Liu._
   AAAI 2020.
   [paper](https://arxiv.org/abs/1911.10438)
-    ```
+  
     Motivation: 对[CopyRE](https://www.aclweb.org/anthology/P18-1047.pdf)进行改进，针对其不区分头尾实体生成顺序以及实体不能包括多个词的问题提出相应解决方案。
-    Method:1.对于CopyRE不区分头尾实体生成顺序，分析其原因是生成头尾实体softmax分布的时候与decoder所在时间步t无关，因此在模型中间加了个非线性层使得其与t相关。2. 对于实体不能包括多个词，加入了一个BiLSTM+CRF的NER任务，然后multi-task训练。
+    
+    Method: 1.对于CopyRE不区分头尾实体生成顺序，分析其原因是生成头尾实体softmax分布的时候与decoder所在时间步t无关，因此在模型中间加了个非线性层使得其与t相关。2. 对于实体不能包括多个词，加入了一个BiLSTM+CRF的NER任务，然后multi-task训练。
+
     Problems: 对于CopyRE的改进从模型来看并没有特别大变化，不过还是改得有理有据的。
+    
     Github: https://github.com/WindChimeRan/CopyMTL
-    Note Link：[Note](https://github.com/DreamInvoker/RE_papers/blob/master/CopyMTL%20Copy%20Mechanism%20for%20Joint%20Extraction%20of%20Entities%20and%20Relations%20with%20.pdf)
-    ```
-2.
+    
+    Note Link：[Note](https://github.com/DreamInvoker/RE_papers/blob/master/CopyMTL.pdf)
+    
+2. **A Novel Hierarchical Binary Tagging Framework for Joint Extraction of Entities and Relations.**
+  _Zhepei Wei, Jianlin Su, Yue Wang, Yuan Tian, Yi Chang._
+  AAAI 2020.
+  [paper](https://arxiv.org/abs/1909.03227)
+  
+    Motivation: 之前RE的方法无法解决同个实体属于多个关系的情况，也就是一个实体最多指定到一个关系中。CopyRE是最近第一个显式解决这个问题的，但是效果还不够好。这篇paper主要就是为了解决这个问题，提出了一个层次标注的方法同时做实体抽取和关系抽取。
+    
+    Method: 用BERT编码输入句子，之后decoder端有两层tagger。第一层tagger先做序列标注标出可能的头实体，之后每个relation有自己一套参数，给定头实体和某个relation，可以在第二层tagger上继续做序列标注标注出可能的尾实体，这样就得到了一个(h,r,t)三元组。方法简单粗暴，效果很好。
+
+    Problems: 想法不复杂，但是参数量会随关系种类线性增长，在relation种类多的情况下可能对硬件要求较高。
+    
+    Github: https://github.com/WindChimeRan/NREPapers2019
+    
+    Note Link：[Note](https://github.com/DreamInvoker/RE_papers/blob/master/HBT.pdf)
 
 ### 
