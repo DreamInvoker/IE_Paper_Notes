@@ -78,28 +78,28 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
     Note Link：[Note](notes/HBT.pdf)
 
 ### Distant Supervised Methods
-1.**Relation Extraction with Temporal Reasoning Based on Memory Augmented Distant Supervision.**
+1. **Relation Extraction with Temporal Reasoning Based on Memory Augmented Distant Supervision.**
   _Jianhao Yan, Lin He, Ruqin Huang, Jian Li, Ying Liu._
   NAACL 2019.
   [paper](https://www.aclweb.org/anthology/N19-1107/)
   
-  Motivation: 前人DS RE的工作忽略了关系实例中的时间信息，比如实体对在今天和明天可能是不同的关系，所以本文提出了一个新的任务，即从时序的角度推理实体对之间的关系，并提出专门针对时序RE的新数据集[WIKITIME](https://github.com/ElliottYan/DS_Temporal)
+    Motivation: 前人DS RE的工作忽略了关系实例中的时间信息，比如实体对在今天和明天可能是不同的关系，所以本文提出了一个新的任务，即从时序的角度推理实体对之间的关系，并提出专门针对时序RE的新数据集[WIKITIME](https://github.com/ElliottYan/DS_Temporal)
               
-  Method: 基于前人encoding + fusion的架构, 将时序RE看做是在memory上的序列标注任务。1.在encoding阶段引入时间编码来建模bag中instance之间的时序信息；2.在fusion阶段，使用Memory Network对经过时间信息增强后的句子编码进行迭代地推理。
+    Method: 基于前人encoding + fusion的架构, 将时序RE看做是在memory上的序列标注任务。1.在encoding阶段引入时间编码来建模bag中instance之间的时序信息；2.在fusion阶段，使用Memory Network对经过时间信息增强后的句子编码进行迭代地推理。
   
-  Github: [https://github.com/ElliottYan/DS_Temporal](https://github.com/ElliottYan/DS_Temporal)
+    Github: [https://github.com/ElliottYan/DS_Temporal](https://github.com/ElliottYan/DS_Temporal)
   
-  Note Link: [Note](notes/TempMEM.pdf)
+    Note Link: [Note](notes/TempMEM.pdf)
 
-2.**Effective Deep Memory Networks for Distant Supervised Relation Extraction.**
+2. **Effective Deep Memory Networks for Distant Supervised Relation Extraction.**
   _Xiaocheng Feng, Jiang Guo, Bing Qin, Ting Liu, Yongjie Liu SCIR._
   IJCAI 2017.
   [paper](https://www.ijcai.org/Proceedings/2017/559)
   
-  Motivation: DS RE通常用多实例多标签学习的方法来解决，本文针对多实例的attention机制，提出两个基于attention机制的memory组件来同时显式地捕捉context word的信息（比如instance中的每个词对分类的关系贡献程度不一样）和关系类别之间的内在依存信息（比如两个关系类别可能有对称关系或者蕴含关系）
+    Motivation: DS RE通常用多实例多标签学习的方法来解决，本文针对多实例的attention机制，提出两个基于attention机制的memory组件来同时显式地捕捉context word的信息（比如instance中的每个词对分类的关系贡献程度不一样）和关系类别之间的内在依存信息（比如两个关系类别可能有对称关系或者蕴含关系）
               
-  Method: 使用两个基于attention机制的memory network。1.词级别的memory，用于学习每个context word对实体对关系的贡献程度；2.两层关系级别的memory, 用于得到关系的表示并进行最终bag级别的所有关系类别的二分类
+    Method: 使用两个基于attention机制的memory network。1.词级别的memory，用于学习每个context word对实体对关系的贡献程度；2.两层关系级别的memory, 用于得到关系的表示并进行最终bag级别的所有关系类别的二分类
   
-  Github: unreleased
+    Github: unreleased
   
-  Note Link: [Note](notes/DMN.pdf)
+    Note Link: [Note](notes/DMN.pdf)
