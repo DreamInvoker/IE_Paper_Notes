@@ -46,6 +46,23 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
 
 ## Journal and Conference Papers
 
+### Sentence-Level RE
+
+1. **Beyond Word Attention: Using Segment Attention in Neural Relation Extraction.**
+  _Bowen Yu, Zhenyu Zhang, Tingwen Liu, Bin Wang, Sujian Li, Quangang Li._
+  IJCAI 2019.
+  [paper](https://www.ijcai.org/Proceedings/2019/750)
+  
+    Motivation: 1.基于采样调查发现，一般的关系表达(relation expression)是连续的词片段，提出Segment Attention. 2.前人方法使用attention机制进行降噪, 但对于每个词仅仅是soft selection，没有明确目标.
+    
+    Method: 1.输入为词向量 + Positional Feature, 过了BiLSTM得到每个词的上下文表示，然后使用CRF为每个词生成一个二项分布隐变量，并得到所有隐状态的概率分布然后加权组合表达整个关系实例。2.loss加入transition正则器（用于将约束转移特征值）和sparse正则器（得到稀疏的权重分布以focus更少的词）.
+
+    Problems: 模型比较简单，就是将传统的attention变成了分段attention，这样的改进仅仅是让分类层的输入有更好的表达，并且segment attention可能会学不到一些模式，比如paper提出的实体重叠问题。
+    
+    Github: [https://github.com/yubowen-ph/segment](https://github.com/yubowen-ph/segment) 
+    
+    Note Link：[Note](notes/SA-LSTM.pdf)
+
 ### Joint Extraction of Entities and Relations Methods
 1. **CopyMTL: Copy Mechanism for Joint Extraction of Entities and Relations with Multi-Task Learning.**
   _Daojian Zeng, Haoran Zhang, Qianying Liu._
@@ -56,7 +73,7 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
     
     Method: 1.对于CopyRE不区分头尾实体生成顺序，分析其原因是生成头尾实体softmax分布的时候与decoder所在时间步t无关，因此在模型中间加了个非线性层使得其与t相关。2. 对于实体不能包括多个词，加入了一个BiLSTM+CRF的NER任务，然后multi-task训练。
 
-    Problems: 对于CopyRE的改进从模型来看并没有特别大变化，不过还是改得有理有据的。
+    Problems:对于CopyRE的改进从模型来看并没有特别大变化，不过还是改得有理有据的。
     
     Github: [https://github.com/WindChimeRan/CopyMTL](https://github.com/WindChimeRan/CopyMTL)
     
