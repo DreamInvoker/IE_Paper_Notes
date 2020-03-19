@@ -132,4 +132,4 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
   
     Github: unreleased
   
-    Note Link: [Note](notes/Self-Attention Enhanced CNNs and Collaborative Curriculum Learning for Dist.pdf)
+    Note Link: [Note](https://github.com/DreamInvoker/RE_papers/blob/master/notes/Self-Attention%20Enhanced%20CNNs%20and%20Collaborative%20Curriculum%20Learning%20for%20Dist.pdf)
