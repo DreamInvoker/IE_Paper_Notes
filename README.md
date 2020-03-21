@@ -128,8 +128,8 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
     
 3. **Self-Attention Enhanced CNNs and Collaborative Curriculum Learning for Distantly Supervised Relation Extraction.**
   _Yuyun Huang Jinhua Du._
-  IJCAI 2019.
-  [paper](https://www.ijcai.org/Proceedings/2017/559)
+  EMNLP 2019.
+  [paper](https://www.aclweb.org/anthology/D19-1037/)
   
     Motivation: 对于DS，不同bag-level的relation prediction模型被提出，这篇paper的目的是用某种机制把他们的优点结合起来，更好地排除DS中false positive数据的干扰。
               
@@ -139,7 +139,7 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
     
     Github: unreleased
   
-    Note Link: [Note](notes/Self-Attention Enhanced CNNs and Collaborative Curriculum Learning for Dist.pdf)
+    Note Link: [Note](notes/Self-Attention-Enhanced-CNNs-and-Collaborative-Curriculum-Learning-for-Dist.pdf)
 
 4. **Graph Neural Networks with Generated Parameters for Relation Extraction.**
   _Hao Zhu, Yankai Lin, Zhiyuan Liu, Jie Fu, Tat-seng Chua, Maosong Sun._
