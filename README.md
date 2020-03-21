@@ -4,6 +4,7 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
 * [Datasets](#datasets)
 * [Survey Papers](#survey-papers)
 * [Journal and Conference Papers](#journal-and-conference-papers)
+    * [Sentence-Level RE Methods](#sentence-level-re-methods)
     * [Joint Extraction of Entities and Relations Methods](#joint-extraction-of-entities-and-relations-methods)
     * [Distant Supervised Methods](#distant-supervised-methods)
 
@@ -46,7 +47,7 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
 
 ## Journal and Conference Papers
 
-### Sentence-Level RE
+### Sentence-Level RE Methods
 
 1. **Beyond Word Attention: Using Segment Attention in Neural Relation Extraction.**
   _Bowen Yu, Zhenyu Zhang, Tingwen Liu, Bin Wang, Sujian Li, Quangang Li._
@@ -103,7 +104,9 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
     Motivation: 前人DS RE的工作忽略了关系实例中的时间信息，比如实体对在今天和明天可能是不同的关系，所以本文提出了一个新的任务，即从时序的角度推理实体对之间的关系，并提出专门针对时序RE的新数据集[WIKITIME](https://github.com/ElliottYan/DS_Temporal)
               
     Method: 基于前人encoding + fusion的架构, 将时序RE看做是在memory上的序列标注任务。1.在encoding阶段引入时间编码来建模bag中instance之间的时序信息；2.在fusion阶段，使用Memory Network对经过时间信息增强后的句子编码进行迭代地推理。
-  
+    
+    Problems: 对于给定时间点两个实体对之间的关系，有这样的数据集来做固然是很好的，但是没法从根本上解决公开数据集关于时间序列RE的问题。
+    
     Github: [https://github.com/ElliottYan/DS_Temporal](https://github.com/ElliottYan/DS_Temporal)
   
     Note Link: [Note](notes/TempMEM.pdf)
@@ -117,11 +120,13 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
               
     Method: 使用两个基于attention机制的memory network。1.词级别的memory，用于学习每个context word对实体对关系的贡献程度；2.两层关系级别的memory, 用于得到关系的表示并进行最终bag级别的所有关系类别的二分类
   
+    Problems: 用到的memory只有query功能，没有update和forget功能。
+    
     Github: unreleased
   
     Note Link: [Note](notes/DMN.pdf)
     
-2. **Self-Attention Enhanced CNNs and Collaborative Curriculum Learning for Distantly Supervised Relation Extraction**
+3. **Self-Attention Enhanced CNNs and Collaborative Curriculum Learning for Distantly Supervised Relation Extraction.**
   _Yuyun Huang Jinhua Du._
   IJCAI 2019.
   [paper](https://www.ijcai.org/Proceedings/2017/559)
@@ -130,6 +135,23 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
               
     Method: 使用两个不同bag-level relation prediction的模型：一个是从中选出最大概率的；一个是用attention软聚合的。两个模型共同学习，对于某个bag，如果两个模型预测出来其中最大概率的句子相同，就认为是easy的样本，加进去算loss；如果不相同，认为是difficult的样本，不加进去学习。然后还加了一个两个模型预测出来的最大概率句子的交叉熵作为正则项，让两个模型预测倾向更紧密。
   
+    Problems: 
+    
     Github: unreleased
   
-    Note Link: [Note](https://github.com/DreamInvoker/RE_papers/blob/master/notes/Self-Attention%20Enhanced%20CNNs%20and%20Collaborative%20Curriculum%20Learning%20for%20Dist.pdf)
+    Note Link: [Note](notes/Self-Attention Enhanced CNNs and Collaborative Curriculum Learning for Dist.pdf)
+
+4. **Graph Neural Networks with Generated Parameters for Relation Extraction.**
+  _Hao Zhu, Yankai Lin, Zhiyuan Liu, Jie Fu, Tat-seng Chua, Maosong Sun._
+  ACL 2019.
+  [paper](https://www.aclweb.org/anthology/P19-1128/)
+  
+    Motivation: 现有的关系抽取模型不能很好的解决多跳推理问题，而GNN做多跳推理已经有很多研究，但都是在预先定义好的图上，因此，本工作探索如何在在富文本信息上做信息传递（GCN message-passing)
+              
+    Method: 首先构造一个全连接的实体图（实体的初始表示为0或者one-hot向量），然后分为三个组件。1.编码组件，负责将原文信息编码，生成图上边的表示；2.信息传递组件，使用第1步得到的边的信息，对图做GCN；3.使用得到的节点表示做实体对的关系预测。
+  
+    Problems: 1.每层GCN都生成边的参数，不同层（hop）之间的推理没有交互；2.刚开始是全链接的图，实体表示为0，可能不是一个很好的选择；3.分类端只使用了节点的信息，没有加入边（关系）的信息。
+    
+    Github: [https://github.com/thunlp/gp-gnn](https://github.com/thunlp/gp-gnn)
+  
+    Note Link: [Note](notes/GP-GNN.pdf)
