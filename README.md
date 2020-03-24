@@ -63,6 +63,22 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
     Github: [https://github.com/yubowen-ph/segment](https://github.com/yubowen-ph/segment) 
     
     Note Link：[Note](notes/SA-LSTM.pdf)
+ 
+ 2. **Matching the Blanks Distributional Similarity for Relation Learning.**
+  _Livio Baldini Soares, Nicholas FitzGerald, Jeffrey Ling, Tom Kwiatkowski._
+  ACL 2019.
+  [paper](https://arxiv.org/abs/1906.03158)
+  
+    Motivation:
+    
+    Method: 
+
+    Problems: 
+    
+    Github: 
+    
+    Note Link：
+ 
 
 ### Joint Extraction of Entities and Relations Methods
 1. **CopyMTL: Copy Mechanism for Joint Extraction of Entities and Relations with Multi-Task Learning.**
@@ -155,3 +171,18 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
     Github: [https://github.com/thunlp/gp-gnn](https://github.com/thunlp/gp-gnn)
   
     Note Link: [Note](notes/GP-GNN.pdf)
+    
+5. **Looking Beyond Label Noise: Shifted Label Distribution Matters in Distantly Supervised Relation Extraction.**
+  _Qinyuan Ye, Liyuan Liu, Maosen Zhang, Xiang Ren._
+  EMNLP 2019.
+  [paper](https://arxiv.org/abs/1904.09331)
+  
+    Motivation: 
+              
+    Method: 
+  
+    Problems: 
+    
+    Github: 
+  
+    Note Link:
