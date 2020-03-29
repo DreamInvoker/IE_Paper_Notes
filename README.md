@@ -141,6 +141,36 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
     
     Note Link：[Note](notes/GraphRel.pdf)
     
+4. **Span-Level Model for Relation Extraction.**
+  _Kalpit Dixit, Yaser Al-Onaizan._
+  ACL 2019.
+  [paper](https://www.aclweb.org/anthology/P19-1525/)
+  
+    Motivation: 之前有工作针对实体可能作为多个关系的head/tail来进行改进，但是其实还有一种情况是在进行NER的时候，其实也有可能产生实体重叠，这里的实体重叠指的是同一个word属于不同的entity，比如“常宝宝老师”，“常宝宝”，可以是两个实体。
+    
+    Method: paper提出的方法就是遍历所有的span，把他们独立进行joint learning，判断这个span是否是实体，同时判断与其他实体的关系。为了减少复杂度，实验的时候限定了span的最长长度。
+
+    Problems: 遍历所有可能的span听起来还是太暴力的，尽管它是一种解决方法。
+    
+    Github: unreleased
+    
+    Note Link：[Note](notes/Span-model.pdf)
+    
+5. **Span-based Joint Entity and Relation Extraction with Transformer Pre-training.**
+  _Markus Eberts and Adrian Ulges._
+   arxiv.
+  [paper](https://arxiv.org/abs/1909.07755)
+  
+    Motivation: 与上一篇相同，也是为了解决NER中实体重叠问题。
+    
+    Method: 与上一篇不同的是，这里把LSTM换成了BERT，然后编码span的时候用到了BERT [cls]对应位置的输出作为全局context信息。而在预测两个entity的关系的时候，利用两个entity中间的文字context信息，做了实验验证了这样做比用全局context更好。
+
+    Problems: 和上一篇的问题一样，遍历所有的Span总感觉不是特别优雅。
+    
+    Github: https://github.com/markus-eberts/spert
+    
+    Note Link：[Note](notes/SpERT.pdf)
+    
 
 ### Distant Supervised Methods
 1. **Relation Extraction with Temporal Reasoning Based on Memory Augmented Distant Supervision.**
