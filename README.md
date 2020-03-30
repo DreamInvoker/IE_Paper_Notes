@@ -122,7 +122,7 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
 
     Problems: 想法不复杂，但是参数量会随关系种类线性增长，在relation种类多的情况下可能对硬件要求较高。
     
-    Github: [https://github.com/WindChimeRan/NREPapers2019](https://github.com/WindChimeRan/NREPapers2019)
+    Github: unrelease
     
     Note Link：[Note](notes/HBT.pdf)
 
