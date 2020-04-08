@@ -45,6 +45,10 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
    _Nguyen Bach, Sameer Badaskar._ 2017.
    [paper](https://www.cs.cmu.edu/~nbach/papers/A-survey-on-Relation-Extraction.pdf)                                                                                                                                                                                                              
 
+5. **More Data, More Relations, More Context and More Openness: A Review and Outlook for Relation Extraction.**
+   _Xu Han, Tianyu Gao, Yankai Lin, Hao Peng, Yaoliang Yang, Chaojun Xiao, Zhiyuan Liu, Peng Li, Maosong Sun, Jie Zhou._ Arxiv Preprint 2020.
+   [paper](https://arxiv.org/pdf/2004.03186.pdf) 
+
 ## Journal and Conference Papers
 
 ### Sentence-Level RE Methods
