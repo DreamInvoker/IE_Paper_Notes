@@ -1,5 +1,5 @@
 # Relation Extraction Papers Reading Notes
-This is a relation extraction reading notes repo contributed by the [Shuang Zeng](https://github.com/gaotianyu1350) and [Runxin Xu](https://github.com/RunxinXu).
+This is a relation extraction reading notes repo contributed by the [Shuang Zeng](https://github.com/DeamInvoker) and [Runxin Xu](https://github.com/RunxinXu).
 
 * [Datasets](#datasets)
 * [Survey Papers](#survey-papers)
