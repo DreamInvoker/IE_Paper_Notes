@@ -5,7 +5,7 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
 * [Survey Papers](#survey-papers)
 * [Journal and Conference Papers](#journal-and-conference-papers)
     * [Sentence-Level RE Methods](#sentence-level-re-methods)
-    # [Document-level RE Methods](#)
+    * [Document-level RE Methods](#document-level-re-methods)
     * [Joint Extraction of Entities and Relations Methods](#joint-extraction-of-entities-and-relations-methods)
     * [Distant Supervised Methods](#distant-supervised-methods)
 
