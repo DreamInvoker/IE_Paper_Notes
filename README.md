@@ -25,7 +25,11 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
 
 ### Document-Level Datasets
 
-1. **DocRED**. [[link]](https://github.com/thunlp/DocRED) [[paper]](https://www.aclweb.org/anthology/P19-1074/)
+1. **DocRED**. ACL 2019. [[link]](https://github.com/thunlp/DocRED) [[paper]](https://www.aclweb.org/anthology/P19-1074/)
+2. **SciREX**. ACL 2020. [[link]](https://github.com/allenai/SciREX) [[paper]](https://www.aclweb.org/anthology/2020.acl-main.670/)
+3. **SciERC**. EMNLP 2018. [[link]](https://bitbucket.org/luanyi/scierc/src/master/) [[paper]](https://www.aclweb.org/anthology/D18-1360/)
+4. **CDR**. Database 2016. [[link1]](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-v/track-3-cdr/) and [[link2]](https://figshare.com/articles/GLRE_data/12385979) [[paper]](https://doi.org/10.1093/database/baw068) [[preprocess]](https://github.com/fenchri/edge-oriented-graph)
+5. **GDA**. RECOM 2019. [[link]](https://bitbucket.org/alexwuhkucs/gda-extraction/get/fd4a7409365e.zip) [[paper]](Renet: A deep learning approach for extracting gene-disease associations from literature. ) [[preprocess]](https://github.com/fenchri/edge-oriented-graph)
 
 ## Survey papers
 
