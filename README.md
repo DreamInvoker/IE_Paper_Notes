@@ -1,5 +1,5 @@
 # Relation Extraction Papers Reading Notes
-This is a relation extraction reading notes repo contributed by the [Shuang Zeng](https://github.com/DreamInvoker), [Runxin Xu](https://github.com/RunxinXu), [Zelin Jiang](https://github.com/woyaonidsh) and [Jiaxin Lin](https://github.com/jxlin98).
+This is a relation extraction reading notes repo contributed by the [Shuang Zeng](https://github.com/DreamInvoker), [Runxin Xu](https://github.com/RunxinXu), [Zelin Jiang](https://github.com/woyaonidsh), [Jiaxin Lin](https://github.com/jxlin98) and [Jing Ren](https://github.com/RJ6666).
 
 * [Datasets](#datasets)
 * [Survey Papers](#survey-papers)
