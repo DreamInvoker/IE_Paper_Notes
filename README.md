@@ -3,7 +3,7 @@ This is a information extraction reading notes repo contributed by the [Shuang Z
 
 We welcome people to contribute this repo together! 
 
-For Better Habits!!!
+For Better Habits!!
 
 * [Relation Extraction](track/RE.md)
 * [Named Entity Recognition](track/NER.md)
