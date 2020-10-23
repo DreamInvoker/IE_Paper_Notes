@@ -5,6 +5,7 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
 * [Survey Papers](#survey-papers)
 * [Journal and Conference Papers](#journal-and-conference-papers)
     * [Sentence-Level RE Methods](#sentence-level-re-methods)
+    # [Document-level RE Methods](#)
     * [Joint Extraction of Entities and Relations Methods](#joint-extraction-of-entities-and-relations-methods)
     * [Distant Supervised Methods](#distant-supervised-methods)
 
@@ -105,7 +106,10 @@ This is a relation extraction reading notes repo contributed by the [Shuang Zeng
     
     Note Link：[Note](notes/AGGCN.pdf)
  
-    
+### Document-level RE Methods
+
+to be added...
+
 ### Joint Extraction of Entities and Relations Methods
 1. **CopyMTL: Copy Mechanism for Joint Extraction of Entities and Relations with Multi-Task Learning.**
   _Daojian Zeng, Haoran Zhang, Qianying Liu._
