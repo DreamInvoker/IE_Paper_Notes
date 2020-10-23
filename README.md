@@ -1,14 +1,16 @@
-# Relation Extraction Papers Reading Notes
-This is a relation extraction reading notes repo contributed by the [Shuang Zeng](https://github.com/DreamInvoker), [Runxin Xu](https://github.com/RunxinXu), [Zelin Jiang](https://github.com/woyaonidsh), [Jiaxin Lin](https://github.com/jxlin98) and [Jing Ren](https://github.com/RJ6666).
+# Information Extraction Papers Reading Notes
+This is a information extraction reading notes repo contributed by the [Shuang Zeng](https://github.com/DreamInvoker), [Runxin Xu](https://github.com/RunxinXu), [Zelin Jiang](https://github.com/woyaonidsh), [Jiaxin Lin](https://github.com/jxlin98) and [Jing Ren](https://github.com/RJ6666).
 
-* [Datasets](#datasets)
-* [Survey Papers](#survey-papers)
-* [Journal and Conference Papers](#journal-and-conference-papers)
-    * [Sentence-Level RE Methods](#sentence-level-re-methods)
-    * [Document-level RE Methods](#document-level-re-methods)
-    * [Joint Extraction of Entities and Relations Methods](#joint-extraction-of-entities-and-relations-methods)
-    * [Distant Supervised Methods](#distant-supervised-methods)
+* Relation Extraction
+   * [Datasets](#datasets)
+   * [Survey Papers](#survey-papers)
+   * [Journal and Conference Papers](#journal-and-conference-papers)
+       * [Sentence-Level RE Methods](#sentence-level-re-methods)
+       * [Document-level RE Methods](#document-level-re-methods)
+       * [Joint Extraction of Entities and Relations Methods](#joint-extraction-of-entities-and-relations-methods)
+       * [Distant Supervised Methods](#distant-supervised-methods)
 
+# Relation Extraction
 ## Datasets
 ### Sentence-Level Datasets
 
