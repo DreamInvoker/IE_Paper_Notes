@@ -22,7 +22,7 @@
 2. **DocRED**. ACL 2019. [[link]](https://github.com/thunlp/DocRED) [[paper]](https://www.aclweb.org/anthology/P19-1074/)
 3. **GDA**. RECOM 2019. [[link]](https://bitbucket.org/alexwuhkucs/gda-extraction/get/fd4a7409365e.zip) [[paper]](https://link.springer.com/chapter/10.1007/978-3-030-17083-7_17) [[preprocess]](https://github.com/fenchri/edge-oriented-graph)
 4. **SciERC**. EMNLP 2018. [[link]](https://bitbucket.org/luanyi/scierc/src/master/) [[paper]](https://www.aclweb.org/anthology/D18-1360/)
-5. **CDR**. Database 2016. [[link1]](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-v/track-3-cdr/) and [[link2]](https://figshare.com/articles/GLRE_data/12385979) [[paper]](https://doi.org/10.1093/database/baw068) [[preprocess]](https://github.com/fenchri/edge-oriented-graph)
+5. **CDR**. Database 2016. [[link1]](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-v/track-3-cdr/) [[link2]](https://figshare.com/articles/GLRE_data/12385979) [[paper]](https://doi.org/10.1093/database/baw068) [[preprocess]](https://github.com/fenchri/edge-oriented-graph)
 
 ### Distantly Supervised Datasets
 
