@@ -90,7 +90,13 @@ arxiv 2020.
   
 ### Document-level RE Methods
 
-to be added...
+1. **Global-to-Local Neural Networks for Document-Level Relation Extraction.**
+_Difeng Wang, Wei Hu, Ermei Cao, Weijian Sun._
+EMNLP 2020.
+[[paper]](https://arxiv.org/abs/2009.10359)
+[[code]](https://github.com/nju-websoft/GLRE)
+[[note]](../notes/RE/document-level/GLRE.md)
+[[file]](../files/RE/document-level/GLRE.pdf)
 
 ### Joint Extraction of Entities and Relations Methods
 1. **CopyMTL: Copy Mechanism for Joint Extraction of Entities and Relations with Multi-Task Learning.**
