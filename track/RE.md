@@ -146,6 +146,14 @@ arxiv 2019.
 [[code]](https://github.com/markus-eberts/spert)
 [[note]](../notes/RE/joint/SpERT.md)
 [[file]](../files/RE/joint/SpERT.pdf)
+
+6. **Minimize Exposure Bias of Seq2Seq Models in Joint Entity and Relation Extraction.**
+Ranran Haoran Zhang, Qianying Liu, Aysa Xuemo Fan, Heng Ji, Daojian Zeng,Fei Cheng, Daisuke Kawahara and Sadao Kurohashi
+EMNLP 2020.(finding)
+[[paper]](https://arxiv.org/pdf/2009.07503.pdf)
+[[code]](https://github.com/WindChimeRan/OpenJERE)
+[[note]](../notes/RE/joint/Seq2UMTree.md)
+[[file]](../files/RE/joint/Seq2UMTree.pdf)
     
 ### Distant Supervised Methods
 1. **Relation Extraction with Temporal Reasoning Based on Memory Augmented Distant Supervision.**
