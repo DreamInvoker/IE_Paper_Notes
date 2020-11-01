@@ -154,7 +154,15 @@ EMNLP 2020.(finding)
 [[code]](https://github.com/WindChimeRan/OpenJERE)
 [[note]](../notes/RE/joint/Seq2UMTree.md)
 [[file]](../files/RE/joint/Seq2UMTree.pdf)
-    
+
+7. **Two are Better than One:Joint Entity and Relation Extraction with Table-Sequence Encoders.**
+Jue Wang and Wei Lu
+EMNLP2020.
+[[paper]](https://arxiv.org/pdf/2010.03851)
+[[code]](https://github.com/LorrinWWW/two-are-better-than-one)
+[[note]](../notes/RE/joint/Two-are-Better-than-One.md)
+[[file]](../files/RE/joint/Two-are-Better-than-One.pdf)
+
 ### Distant Supervised Methods
 1. **Relation Extraction with Temporal Reasoning Based on Memory Augmented Distant Supervision.**
 _Jianhao Yan, Lin He, Ruqin Huang, Jian Li, Ying Liu._
