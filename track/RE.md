@@ -98,6 +98,14 @@ EMNLP 2020.
 [[note]](../notes/RE/document-level/GLRE.md)
 [[file]](../files/RE/document-level/GLRE.pdf)
 
+2. **Document-Level Relation Extraction with Adaptive Thresholding and Localized Context Pooling.**
+_Wenxuan Zhou, Kevin Huang, Tengyu Ma, Jing Huang._
+ArXiv 2020.
+[[paper]](https://arxiv.org/abs/2010.11304)
+[[code]](https://github.com/wzhouad/ATLOP)
+[[note]](../notes/RE/document-level/ATLOP.md)
+[[file]](../files/RE/document-level/ATLOP.pdf)
+
 ### Joint Extraction of Entities and Relations Methods
 1. **CopyMTL: Copy Mechanism for Joint Extraction of Entities and Relations with Multi-Task Learning.**
 _Daojian Zeng, Haoran Zhang, Qianying Liu._
