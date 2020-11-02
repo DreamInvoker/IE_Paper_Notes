@@ -211,3 +211,11 @@ EMNLP 2019.
 [[file]](../files/RE/distant-supervised/Label-Noise.pdf)
 
 ### Few Shot RE methods
+### Few Shot RE methods
+**FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation**
+_Han, X., Zhu, H., Yu, P., Wang, Z., Yao, Y., Liu, Z., & Sun, M._
+EMNLP2018
+[[paper]](https://www.aclweb.org/anthology/D18-1514.pdf)
+[[code]](https://github.com/thunlp/FewRel)
+[[note]](../notes/RE/few-shot/few1.0.md)
+[[file]](../files/RE/few-shot/few1.0.pdf)
