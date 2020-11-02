@@ -155,7 +155,13 @@ EMNLP 2020.(finding)
 [[note]](../notes/RE/joint/Seq2UMTree.md)
 [[file]](../files/RE/joint/Seq2UMTree.pdf)
 
-7. **Two are Better than One:Joint Entity and Relation Extraction with Table-Sequence Encoders.**
+7. **Recurrent Interaction Network for Jointly Extracting Entities and Classifying Relations.**
+Kai Sun, Richong Zhang, Samuel Mensah, Yongyi Mao, Xudong Liu
+EMNLP2020.
+[[paper]](https://arxiv.org/abs/2005.00162)
+[[file]](../files/RE/joint/Recurrent-Interaction-Network.pdf)
+
+8. **Two are Better than One:Joint Entity and Relation Extraction with Table-Sequence Encoders.**
 Jue Wang and Wei Lu
 EMNLP2020.
 [[paper]](https://arxiv.org/pdf/2010.03851)
