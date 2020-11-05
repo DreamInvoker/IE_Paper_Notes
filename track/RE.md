@@ -149,7 +149,7 @@ arxiv 2019.
 
 6. **Minimize Exposure Bias of Seq2Seq Models in Joint Entity and Relation Extraction.**
 Ranran Haoran Zhang, Qianying Liu, Aysa Xuemo Fan, Heng Ji, Daojian Zeng,Fei Cheng, Daisuke Kawahara and Sadao Kurohashi
-EMNLP 2020.(finding)
+EMNLP 2020.(findings)
 [[paper]](https://arxiv.org/pdf/2009.07503.pdf)
 [[code]](https://github.com/WindChimeRan/OpenJERE)
 [[note]](../notes/RE/joint/Seq2UMTree.md)
@@ -157,17 +157,25 @@ EMNLP 2020.(finding)
 
 7. **Recurrent Interaction Network for Jointly Extracting Entities and Classifying Relations.**
 Kai Sun, Richong Zhang, Samuel Mensah, Yongyi Mao, Xudong Liu
-EMNLP2020.
+EMNLP 2020.
 [[paper]](https://arxiv.org/abs/2005.00162)
 [[file]](../files/RE/joint/Recurrent-Interaction-Network.pdf)
 
 8. **Two are Better than One:Joint Entity and Relation Extraction with Table-Sequence Encoders.**
 Jue Wang and Wei Lu
-EMNLP2020.
+EMNLP 2020.
 [[paper]](https://arxiv.org/pdf/2010.03851)
 [[code]](https://github.com/LorrinWWW/two-are-better-than-one)
 [[note]](../notes/RE/joint/Two-are-Better-than-One.md)
 [[file]](../files/RE/joint/Two-are-Better-than-One.pdf)
+
+9. **A Frustratingly Easy Approach for Joint Entity and Relation Extraction.**
+Zexuan Zhong, Danqi Chen
+ArXiv 2020.
+[[paper]](https://arxiv.org/abs/2010.12812)
+[[code]]()
+[[note]](../notes/RE/joint/Two-Encoder.md)
+[[file]](../files/RE/joint/Two-Encoder.pdf)
 
 ### Distant Supervised Methods
 1. **Relation Extraction with Temporal Reasoning Based on Memory Augmented Distant Supervision.**
