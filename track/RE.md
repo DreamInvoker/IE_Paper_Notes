@@ -8,6 +8,7 @@
    * [Joint Extraction of Entities and Relations Methods](#joint-extraction-of-entities-and-relations-methods)
    * [Distant Supervised Methods](#distant-supervised-methods)
    * [Few Shot RE Methods](#few-shot-re-methods)
+   * [Pre-training RE methods](#pre-training-re-methods)
 
 ## Datasets
 ### Sentence-Level Datasets
@@ -226,3 +227,14 @@ EMNLP2018
 [[code]](https://github.com/thunlp/FewRel)
 [[note]](../notes/RE/few-shot/few1.0.md)
 [[file]](../files/RE/few-shot/few1.0.pdf)
+
+### Pre-training RE methods
+
+1. **Learning from Context or Names? An Empirical Study on Neural Relation Extraction.**
+Hao Peng, Tianyu Gao, Xu Han, Yankai Lin, Peng Li, Zhiyuan Liu, Maosong Sun, Jie Zhou
+EMNLP 2020.
+[[paper]](https://arxiv.org/abs/2010.01923)
+[[code]](https://github.com/thunlp/RE-Context-or-Names)
+[[note]](../notes/RE/pre-training/Contrastive-Pretraining.md)
+[[file]](../files/RE/pre-trainig/Contrastive-Pretraining.pdf)
+
