@@ -33,6 +33,9 @@
    _Mohammed Albared; Marc Gallofré Ocaña; Abdullah Ghareb; Tareq Al-Moslmi._ IEEE 2019.
 4. **[A Study of Recent Contributions on Information Extraction](https://arxiv.org/abs/1803.05667).**
    _Parisa Naderi Golshan, HosseinAli Rahmani Dashti, Shahrzad Azizi, Leila Safari._ Arxiv Preprint 2020.
+5. **[A Survey on Recent Advances in Sequence Labeling from Deep Learning Models](https://arxiv.org/abs/2011.06727).**
+   _Zhiyong He, Zanbo Wang, Wei Wei, Shanshan Feng, Xianling Mao, Sheng Jiang._ Arxiv Preprint 2020.
+
 
 ### Medical Area
 1. **[Biomedical named entity recognition and linking datasets: survey and our recent development](https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbaa054/5850239).**
