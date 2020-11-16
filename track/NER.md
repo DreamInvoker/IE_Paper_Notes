@@ -4,8 +4,21 @@
 * [Journal and Conference Papers](#journal-and-conference-papers)
    * [Sentence-Level RE Methods](#sentence-level-re-methods)
 
-
 ## Datasets
+
+* **Chinese Datasets**
+  1. **微博实体识别** [[link](https://github.com/hltcoe/golden-horse)]
+  2. **boson数据集** [[link](https://github.com/InsaneLife/ChineseNLPCorpus/tree/master/NER/boson)]
+  3. **人民日报数据集** [[link](https://github.com/InsaneLife/ChineseNLPCorpus/tree/master/NER/renMinRiBao)]
+  4. **MSRA数据集** [[link](https://github.com/InsaneLife/ChineseNLPCorpus/tree/master/NER/MSRA)]
+  5. **SIGHAN Bakeoff 2005** [[link](http://sighan.cs.uchicago.edu/bakeoff2005/)] 
+* **English Datasets**
+* **Other Languages**
+
+
+
+
+
 ### Sentence-Level Datasets
 
 ## Survey papers
@@ -16,10 +29,8 @@
 
 2. **[A Survey on Recent Advances in Named Entity Recognition from Deep Learning models](https://www.aclweb.org/anthology/C18-1182/).**
    _Vikas Yadav, Steven Bethard._ COLING 2018.
-   
 3. **[Recent Progress of Named Entity Recognition over the Most Popular Datasets](https://ieeexplore.ieee.org/abstract/document/9035170).**
    _Mohammed Albared; Marc Gallofré Ocaña; Abdullah Ghareb; Tareq Al-Moslmi._ IEEE 2019.
-
 4. **[A Study of Recent Contributions on Information Extraction](https://arxiv.org/abs/1803.05667).**
    _Parisa Naderi Golshan, HosseinAli Rahmani Dashti, Shahrzad Azizi, Leila Safari._ Arxiv Preprint 2020.
 
