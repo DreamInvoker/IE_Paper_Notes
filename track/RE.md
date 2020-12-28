@@ -34,23 +34,28 @@
 1. **FewRel**. [[link]](https://github.com/thunlp/fewrel) [[1.0 paper]](https://www.aclweb.org/anthology/D18-1514/) [[2.0 paper]](https://doi.org/10.18653/v1/D19-1649)
 
 ## Survey papers
+1. **[Kernel methods for relation extraction](https://www.jmlr.org/papers/volume3/zelenko03a/zelenko03a.pdf).**
+   _Dmitry Zelenko, Chinatsu Aone, and Anthony Richardella._ JMLR 2003.
 
-1. **[Relation Extraction Using Distant Supervision: A Survey](https://exascale.info/assets/pdf/smirnova2019acmcsur.pdf).**
+2. **[A review of relation extraction](https://www.cs.cmu.edu/~nbach/papers/A-survey-on-Relation-Extraction.pdf).**
+   _Nguyen Bach and Sameer Badaskar._ Literature review for Language and Statistics II 2007. [[slides]](http://www.cs.cmu.edu/~nbach/papers/A-survey-on-Relation-Extraction-Slides.pdf)
+
+3. **[Relation Extraction Using Distant Supervision: A Survey](https://exascale.info/assets/pdf/smirnova2019acmcsur.pdf).**
    _ALISA SMIRNOVA and PHILIPPE CUDRÉ-MAUROUX._ ACM Computing Surveys 2018.
 
-2. **[A Survey of Deep Learning Methods for Relation Extraction](https://arxiv.org/pdf/1705.03645.pdf).**
+4. **[A Survey of Deep Learning Methods for Relation Extraction](https://arxiv.org/pdf/1705.03645.pdf).**
    _Shantanu Kumar._ Arxiv Preprint 2017.
    
-3. **[Relation Extraction : A Survey](https://arxiv.org/pdf/1712.05191.pdf).**
+5. **[Relation Extraction : A Survey](https://arxiv.org/pdf/1712.05191.pdf).**
    _Sachin Pawara,b, Girish K. Palshikara, Pushpak Bhattacharyyab._ Arxiv Preprint 2017.
 
-4. **[A Review of Relation Extraction](https://www.cs.cmu.edu/~nbach/papers/A-survey-on-Relation-Extraction.pdf).**
+6. **[A Review of Relation Extraction](https://www.cs.cmu.edu/~nbach/papers/A-survey-on-Relation-Extraction.pdf).**
    _Nguyen Bach, Sameer Badaskar._ 2017.
    
-5. **[More Data, More Relations, More Context and More Openness: A Review and Outlook for Relation Extraction](https://arxiv.org/pdf/2004.03186.pdf).**
+7. **[More Data, More Relations, More Context and More Openness: A Review and Outlook for Relation Extraction](https://arxiv.org/pdf/2004.03186.pdf).**
    _Xu Han, Tianyu Gao, Yankai Lin, Hao Peng, Yaoliang Yang, Chaojun Xiao, Zhiyuan Liu, Peng Li, Maosong Sun, Jie Zhou._ Arxiv Preprint 2020.
    
-6. **[Neural relation extraction: a survey](https://arxiv.org/pdf/2007.04247.pdf).**
+8. **[Neural relation extraction: a survey](https://arxiv.org/pdf/2007.04247.pdf).**
    _Mehmet Aydar, Ozge Bozal, Furkan Ozbay._ Arxiv Preprint 2020.
 
 ## Journal and Conference Papers
