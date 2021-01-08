@@ -57,6 +57,9 @@
    
 8. **[Neural relation extraction: a survey](https://arxiv.org/pdf/2007.04247.pdf).**
    _Mehmet Aydar, Ozge Bozal, Furkan Ozbay._ Arxiv Preprint 2020.
+   
+9. **[Curriculum-Meta Learning for Order-Robust Continual Relation Extraction](https://arxiv.org/abs/2101.01926).**
+   _Tongtong Wu, Xuekai Li, Yuan-Fang Li, Reza Haffari, Guilin Qi, Yujin Zhu, Guoqiang Xu._ Arxiv Preprint 2021.
 
 ## Journal and Conference Papers
 
