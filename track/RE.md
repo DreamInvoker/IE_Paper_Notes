@@ -60,6 +60,9 @@
    
 9. **[Deep Neural Network Based Relation Extraction: An Overview](https://arxiv.org/abs/2101.01907).**
    _Hailin Wang, Ke Qin, Rufai Yusuf Zakari, Guisong Liu, Guoming Lu._ Arxiv Preprint 2021.
+   
+10. **[Deep Neural Approaches to Relation Triplets Extraction: A Comprehensive Survey](https://arxiv.org/abs/2103.16929).**
+   _Tapas Nayak, Navonil Majumder, Pawan Goyal, Soujanya Poria._ Arxiv Preprint 2021.
 
 ## Journal and Conference Papers
 
